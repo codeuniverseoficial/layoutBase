@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #574186;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    color: white;
+    padding: 10px;
+    height: 300px;
+}
+
+.column.side{
+    width: 25%;
+}
+
+.column.middle{
+    width: 50%;
+}
+
+footer{
+    background-color: #574186;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+@media (max-width: 600px){
+
+    .column.side, .column.middle{
+        width: 100%;
+    }
+}
